@@ -15,11 +15,11 @@
 		"link": ["div>a.detailbtn",".tab>a:nth-child(2)@attr->href"]
 	},
 	"catalog": {
-		"list": ".wrap1200>div:nth-child(2)>ul>li>a",
+		"list": ".wrap1200>div:nth-child(2)>ul",
 		"orderBy": 0,
 		"chapter": {
-			"name": ".cate-list>ul>li",
-			"link": ".cate-list>ul>li@attr->href"
+			"name": ".wrap1200>div:nth-child(2)>ul>li>a>span",
+			"link": ".wrap1200>div:nth-child(2)>ul>li>a@attr->href"
 		}
 	},
 	"content": {
