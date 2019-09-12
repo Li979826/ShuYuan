@@ -9,7 +9,7 @@
 		"author": ["p:nth-child(2)>a:nth-child(1)",".author:nth-child(1)"],
 		"cover": [".lazyimg>img@attr->data-orignal","img.lazyimg:nth-child(1)>img@attr->data-orignal"],
 		"category": ["p:nth-child(2)>a:nth-child(2)"],
-		"summary":[".brief_text"],
+		"summary":[".brief_text",".big-book-info"],
 		"update": ["p>span:nth-child(2)"],
 		"lastChapter": ["p>a:nth-child(1)"],
 		"link": ["div>a.detailbtn:nth-child(1)",".tab>a:nth-child(2)@attr->href"]
