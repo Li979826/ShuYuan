@@ -1,0 +1,32 @@
+{
+	"name": "中医书籍",
+	"version": 100,
+	"category": 1,
+	"url": "http://www.zhongyishuji.com",
+	"charset": "gbk",
+	"metadata": {
+		"name": ["a.bigpic-book-name &gt; span"],
+		"author": ["div.secd-rank-list &gt; p:nth-child(2) &gt; a:nth-child(2)"],
+		"cover": ["img.lazyimg@attr-&gt;src"],
+		"summary": ["p.big-book-info"],
+		"category": ["div.secd-rank-list &gt; p:nth-child(3) &gt; a:nth-child(2)"],
+		"update": ["div.secd-rank-list &gt; d:nth-child(1) &gt; p:nth-child(3) &gt; span:nth-child(1)"],
+		"lastChapter": ["div.secd-rank-list &gt; d:nth-child(1) &gt; p:nth-child(3) &gt; a:nth-child(1)"],
+		"link": ["a.detailbtn@attr-&gt;href"]
+	},
+	"catalog": {
+		"list": "div#cate-list &gt; ul &gt; li ",
+		"orderBy": 0,
+		"chapter": {
+			"name": "a",
+			"link": "a@attr-&gt;href"
+		}
+	},
+	"content": {
+		"text": "div#read-content j_readContent"
+	},
+	"search": {
+		"link": "http://www.zhongyishuji.com/search.html?keyword=${key}",
+		"list": " div.secd-rank-list &gt; div &gt;dl &gt;dt&gt;dd"
+	}
+}
