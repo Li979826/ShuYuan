@@ -12,7 +12,7 @@
 		"summary":[".big-book-info",".tabcontent>div>div>div:nth-child(1)>pre"],
 		"update": ["p>span:nth-child(2)"],
 		"lastChapter": ["p>a:nth-child(1)"],
-		"link": ["div>a.detailbtn",".tab>a:nth-child(2)@attr->href"]
+		"link": ["div>a.detailbtn",".bigbtn>a@attr->href"]
 	},
 	"catalog": {
 		"list": ".wrap1200>div:nth-child(2)>ul",
