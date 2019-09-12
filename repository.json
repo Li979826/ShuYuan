@@ -1,9 +1,9 @@
-{
+﻿{
   "name": "GITHUB",
   "summary": "Provided links and based on github.com",
   "list": [
     {
-      "name": "中医经典古籍辞书库",
+      "name": "中医书籍",
       "url": "http://zygj.dhirp.cn",
       "category": 0,
       "rank": 0,
