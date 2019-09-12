@@ -18,8 +18,8 @@
 		"list": ".wrap1200>div:nth-child(2)>ul",
 		"orderBy": 0,
 		"chapter": {
-			"name": ".wrap1200>div:nth-child(2)>ul>li>a>span",
-			"link": ".wrap1200>div:nth-child(2)>ul>li>a@attr->href"
+			"name":"a",
+			"link":"a@attr->href"
 		}
 	},
 	"content": {
