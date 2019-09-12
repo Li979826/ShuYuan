@@ -1,13 +1,11 @@
 {
-  "name": "子进",
-  "summary": "这是子进同学自行制作的书源啊",
-  "list": [
-    {
-      "name": "中医书籍",
-      "url": "http://www.zhongyishuji.com",
-      "category": 0,
-      "auth": false,
-      "version": 100
-    }
-  ]
+	"name": "子进",
+	"summary": "这是子进同学自行制作的书源啊",
+	"list": [{
+		"name": "中医书籍",
+		"url": "http://www.zhongyishuji.com",
+		"category": 0,
+		"auth": false,
+		"version": 100
+	}]
 }
