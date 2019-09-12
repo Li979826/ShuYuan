@@ -27,6 +27,6 @@
 	},
 	"search": {
 		"link": "http://www.zhongyishuji.com/search.html?keyword=${key}",
-		"list": " div.secd-rank-list &gt; div &gt;dl &gt;dt&gt;dd"
+		"list": " div>dl>dt>dd"
 	}
 }
