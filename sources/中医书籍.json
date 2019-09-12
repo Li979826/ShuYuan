@@ -15,7 +15,7 @@
 		"link": ["div>a.detailbtn",".bigbtn>a@attr->href"]
 	},
 	"catalog": {
-		"list": ".wrap1200>div:nth-child(2)>ul",
+		"list": ".wrap1200>div:nth-child(2)>ul>li>a",
 		"orderBy": 0,
 		"chapter": {
 			"name":"a",
