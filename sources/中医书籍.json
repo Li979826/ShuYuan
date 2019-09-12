@@ -7,7 +7,7 @@
 	"metadata": {
 		"name": ["dd>a","div.title>span.name:nth-child(1)"],
 		"author": ["p:nth-child(2)>a:nth-child(1)",".author:nth-child(1)"],
-		"cover": [".lazyimg>img@attr->src","img.lazyimg:nth-child(1)>img@attr->src"],
+		"cover": [".lazyimg>img@attr->data-orignal","img.lazyimg:nth-child(1)>img@attr->data-orignal"],
 		"category": ["p:nth-child(2)>a:nth-child(2)"],
 		"summary":[".brief_text"],
 		"update": ["p>span:nth-child(2)"],
