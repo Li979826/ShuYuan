@@ -15,12 +15,12 @@
 		"link": ["a@attr->href"]
 	},
 	"catalog": {
-		"list": "div.wrap1200>div:nth-child(2)>ul>li>a",
-		"orderBy": 1,
-		"chapter": {
-			"name":"a",
-			"link":"a@attr->href"
-		}
+	  "list": "div.wrap1200>div:nth-child(2)>ul>li>a",
+	  "orderBy": 0,
+	  "chapter": {
+	    "name": "a",
+	    "link": "a@attr->href"
+	  }
 	},
 	"content": {
 		"text": "div.read-content"
