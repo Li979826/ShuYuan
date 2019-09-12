@@ -16,7 +16,7 @@
 	},
 	"catalog": {
 		"list": "div.wrap1200>div:nth-child(2)>ul>li>a",
-		"orderBy": 0,
+		"orderBy": 1,
 		"chapter": {
 			"name":"a",
 			"link":"a@attr->href"
