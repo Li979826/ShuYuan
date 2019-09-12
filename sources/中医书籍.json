@@ -1,7 +1,7 @@
 {
 	"name": "中医书籍",
 	"version": 100,
-	"category": 1,
+	"category": 0,
 	"url": "http://www.zhongyishuji.com",
 	"charset": "gbk",
 	"metadata": {
@@ -27,6 +27,6 @@
 	},
 	"search": {
 		"link": "http://www.zhongyishuji.com/search.html?keyword=${key}",
-		"list": "div.secd-rank-list"
+		"list": "div.rankdatacont>div"
 	}
 }
