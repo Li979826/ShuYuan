@@ -1,4 +1,4 @@
-# 子进的书源
+#源前的书源
 仓库地址：https://raw.githubusercontent.com/xiangzijin/ShuYuan/master/repository.json
 
 ##### 目前已收录
